@@ -12,8 +12,9 @@ body{
     background-image: url(newd.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100vw;
     /* border: 1px solid red; */
-    height: 700px;
+    height: 100vh;
 }
 .list{
     /* border: 1px solid blue; */
