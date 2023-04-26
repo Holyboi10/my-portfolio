@@ -5,6 +5,7 @@
 body{
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
     font-family: 'Inter', sans-serif;
 }
 #head{
@@ -56,6 +57,12 @@ a{
 }
 .ot-head p{
     font-size: 18px;
+}
+.ot-head h1{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .ot-head button{
     height: 50px;
@@ -127,25 +134,29 @@ a{
 .projects h3{
     font-size: 35px;
 }
-.blog{
-    /* border: 1px solid green; */
-    padding: 30px;
+#blog{
+    border: 1px solid green;
+    width: 80vw;
+    height: 20vh;
+    margin: auto;
+    /* padding: 30px; */
     text-align: center;
     font-size: 18px;
 }
-.blog h3{
+#blog h3{
     font-size: 35px;
 }
 #content{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     display: flex;
     justify-content: space-between;
     height: 400px;
-    padding: 30px;
+    margin: auto;
+    width: 80vw;
 }
 .cont-one{
     border: 3px solid black;
-    width: 28%;
+    width: 28vw;
     height: 300px;
     padding: 20px;
     font-size: 18px;
@@ -232,6 +243,7 @@ button {
 .contact-form{
     /* border: 1px solid red; */
     display: flex;
+    width: 100vw;
     flex-direction: column;
     height: 900px;
     align-items: center;
@@ -321,12 +333,14 @@ button {
         padding: 30px;
     }
     #content{
+        height: 100vh;
         flex-direction: column;
-        height: 900px;
+        /* height: 900px; */
     }
     .cont-one{
-        width: 350px;
-        height: 230px;
+        width: 70vw;
+        /* width: 350px;
+        height: 230px; */
     }
     .contact-form{
         /* border: 1px solid red; */
