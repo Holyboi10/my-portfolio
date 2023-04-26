@@ -305,12 +305,15 @@ button {
 }
 @media screen and (max-width: 768px){
     *{
-        font-size: 14px;
+        font-size: 12px;
     }
     .ot-head{
         text-align: center;
         padding: 30px;
         margin-top: 90px;
+    }
+    .ot-head h1{
+        font-size: 20px;
     }
     .list{
         display: none;
